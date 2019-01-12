@@ -23,5 +23,5 @@ class StudentsController < ApplicationController
      @student.update(params.require(:student))
      redirect_to student_path(@student)
    end
-   
+
 end
