@@ -4,5 +4,5 @@ class StudentsController < ApplicationController
     @student = Student.new
   end
 
-  
+
 end
